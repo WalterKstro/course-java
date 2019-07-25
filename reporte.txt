@@ -1,0 +1,9 @@
+nombre=Monitor Samsung, precio=9933.55, id=16748, peso=9.30, asignado=true, clase=A
+nombre=Mouse Compaq, precio=9729.34, id=54613, peso=1.09, asignado=true, clase=A
+nombre=Monitor Samsung, precio=8221.33, id=34712, peso=5.96, asignado=true, clase=A
+nombre=Kingston RAM, precio=7540.8, id=81559, peso=.05, asignado=true, clase=A
+nombre=Micro-SD, precio=6746.25, id=61127, peso=6.13, asignado=true, clase=A
+nombre=Mouse Compaq, precio=6468.72, id=68737, peso=2.71, asignado=true, clase=A
+nombre=Laptop Toshiba, precio=6389.73, id=11329, peso=8.43, asignado=true, clase=A
+nombre=Laptop Toshiba, precio=6292.58, id=65915, peso=1.53, asignado=true, clase=A
+Beneficio Total: 61322.3
