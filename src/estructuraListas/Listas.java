@@ -5,6 +5,8 @@
  */
 package estructuraListas;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author walte
@@ -216,6 +218,23 @@ public class Listas<E> implements MetodosInterfaz<E> {
             setSize(tempLista.getSize());
         }
         return elemento;
+    }
+    
+    public Iterable<Nodo<E>> iterator(){
+        Listas<E> listTemp = new Listas<>();
+        ArrayList<Nodo<E>> listadoArray = new ArrayList<>();
+        while (isEmpty() == false) { 
+            Nodo<E> nodo = new Nodo();
+            nodo = nodoFirst;            
+            listadoArray.add(nodo);
+            listTemp.addLast(getFirst());
+            removeFirst();
+        }
+        nodoFirst = listTemp.getNodoFirst();
+        nodoLast = listTemp.getNodoLast();
+        size = listTemp.getSize();
+      
+        return listadoArray;
     }
 
     @Override
